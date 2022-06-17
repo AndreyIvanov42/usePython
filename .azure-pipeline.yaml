@@ -3,3 +3,8 @@ trigger:
 
 pool: default
 
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+        versionSpec: 3.6.2
+  - bash: python -v
