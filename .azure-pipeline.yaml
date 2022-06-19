@@ -7,4 +7,4 @@ steps:
   - task: UsePythonVersion@0
     inputs:
       versionSpec: 3.10.5
-  - bash: python -v
+  - powershell: python --version
