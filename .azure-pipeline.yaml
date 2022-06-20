@@ -6,5 +6,5 @@ pool: default
 steps:
   - task: UsePythonVersion@0
     inputs:
-      versionSpec: 3.10.5
+      versionSpec: 3.5
   - powershell: python --version
