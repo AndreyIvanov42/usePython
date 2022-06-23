@@ -4,7 +4,7 @@ trigger:
 pool: macos
 
 steps:
-  - bash: env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.10.0
+  # - bash: env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.10.0
   - task: UsePythonVersion@0
     inputs:
       versionSpec: 3.10.0
