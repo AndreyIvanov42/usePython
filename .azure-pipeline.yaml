@@ -4,8 +4,8 @@ trigger:
 pool: macos
 
 steps:
-  - task: UsePythonVersion@0
+  - task: UsePythonVersion@0.206.1
     inputs:
       versionSpec: 3.10.0
-      disableDownloadFromRegistry: false
+      disableDownloadFromRegistry: true
   - bash: python --version
