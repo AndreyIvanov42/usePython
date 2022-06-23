@@ -6,5 +6,5 @@ pool: macos
 steps:
   - task: UsePythonVersion@0
     inputs:
-      versionSpec: 3.10.1
+      versionSpec: 3.10.0
   - bash: python --version
