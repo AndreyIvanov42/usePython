@@ -7,4 +7,5 @@ steps:
   - task: UsePythonVersion@0.206.1
     inputs:
       versionSpec: 3.10.5
+      disableDownloadFromRegistry: true
   - bash: python --version
